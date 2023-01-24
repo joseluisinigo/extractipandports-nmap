@@ -1,0 +1,155 @@
+# Nmap 7.93 scan initiated Mon Jan 23 10:43:58 2023 as: nmap -sS -T5 -oN resultado2.txt 111.12.11.0/24
+Nmap scan report for 111.12.11.12
+Host is up (0.023s latency).
+Not shown: 960 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+80/tcp    open  http
+111/tcp   open  rpcbind
+113/tcp   open  ident
+
+# Nmap 7.93 scan initiated Mon Jan 23 10:43:58 2023 as: nmap -sS -T5 -oN resultado2.txt 111.15.11.0/24
+Nmap scan report for 111.15.11.12
+Host is up (0.023s latency).
+Not shown: 960 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+80/tcp    open  http
+111/tcp   open  rpcbind
+113/tcp   open  ident
+
+
+# Nmap 7.93 scan initiated Mon Jan 23 10:43:58 2023 as: nmap -sS -T5 -oN resultado2.txt 111.11.33.0/24
+Nmap scan report for 111.12.11.0
+Host is up (0.023s latency).
+Not shown: 960 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+80/tcp    open  http
+111/tcp   open  rpcbind
+113/tcp   open  ident
+
+
+
+# Nmap 7.93 scan initiated Mon Jan 23 10:43:58 2023 as: nmap -sS -T5 -oN resultado2.txt 111.11.33.0/24
+Nmap scan report for 111.12.11.0
+Host is up (0.023s latency).
+Not shown: 960 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+80/tcp    open  http
+111/tcp   open  rpcbind
+113/tcp   open  ident
+
+
+
+# Nmap 7.93 scan initiated Mon Jan 23 10:43:58 2023 as: nmap -sS -T5 -oN resultado2.txt 111.11.33.0/24
+Nmap scan report for 111.12.11.0
+Host is up (0.023s latency).
+Not shown: 960 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+80/tcp    open  http
+111/tcp   open  rpcbind
+113/tcp   open  ident
+
+
+
+# Nmap 7.93 scan initiated Mon Jan 23 10:43:58 2023 as: nmap -sS -T5 -oN resultado2.txt 111.11.33.0/24
+Nmap scan report for 111.12.11.0
+Host is up (0.023s latency).
+Not shown: 960 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+80/tcp    open  http
+111/tcp   open  rpcbind
+113/tcp   open  ident
+
+
+
+
+# Nmap 7.93 scan initiated Mon Jan 23 10:43:58 2023 as: nmap -sS -T5 -oN resultado2.txt 111.10.33.0/24
+Nmap scan report for 111.12.11.0
+Host is up (0.023s latency).
+Not shown: 960 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+80/tcp    open  http
+111/tcp   open  rpcbind
+113/tcp   open  ident
+
+
+
+# Nmap 7.93 scan initiated Mon Jan 23 10:43:58 2023 as: nmap -sS -T5 -oN resultado2.txt 110.11.33.0/24
+Nmap scan report for 111.12.11.0
+Host is up (0.023s latency).
+Not shown: 960 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+80/tcp    open  http
+111/tcp   open  rpcbind
+113/tcp   open  ident
