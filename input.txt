@@ -1,0 +1,1553 @@
+# Nmap 7.93 scan initiated Mon Jan 23 10:43:58 2023 as: nmap -sS -T5 -oN resultado2.txt 10.11.15.0/24
+Nmap scan report for sapprdt.grupocge.cl (10.11.15.12)
+Host is up (0.023s latency).
+Not shown: 960 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+80/tcp    open  http
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+2381/tcp  open  compaq-https
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5666/tcp  open  nrpe
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+8001/tcp  open  vcom-tunnel
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49176/tcp open  unknown
+50006/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for saptxp.grupocge.cl (10.11.15.23)
+Host is up (0.022s latency).
+Not shown: 990 closed tcp ports (reset)
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49167/tcp open  unknown
+49176/tcp open  unknown
+
+Nmap scan report for sapprd1.grupocge.cl (10.11.15.24)
+Host is up (0.021s latency).
+Not shown: 985 closed tcp ports (reset)
+PORT      STATE SERVICE
+25/tcp    open  smtp
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+2301/tcp  open  compaqdiag
+2381/tcp  open  compaq-https
+3389/tcp  open  ms-wbt-server
+8001/tcp  open  vcom-tunnel
+8010/tcp  open  xmpp
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for sapprd2.grupocge.cl (10.11.15.25)
+Host is up (0.022s latency).
+Not shown: 983 closed tcp ports (reset)
+PORT      STATE SERVICE
+25/tcp    open  smtp
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+1501/tcp  open  sas-3
+2301/tcp  open  compaqdiag
+2381/tcp  open  compaq-https
+3389/tcp  open  ms-wbt-server
+8001/tcp  open  vcom-tunnel
+8010/tcp  open  xmpp
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49165/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for 10.11.15.34
+Host is up (0.021s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+3300/tcp open  ceph
+3389/tcp open  ms-wbt-server
+6001/tcp open  X11:1
+8081/tcp open  blackice-icecap
+9001/tcp open  tor-orport
+
+Nmap scan report for 10.11.15.35
+Host is up (0.022s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for sapcrp.grupocge.cl (10.11.15.41)
+Host is up (0.024s latency).
+Not shown: 963 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+80/tcp    open  http
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5666/tcp  open  nrpe
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+8001/tcp  open  vcom-tunnel
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for sapprd.grupocge.cl (10.11.15.42)
+Host is up (0.023s latency).
+Not shown: 960 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+80/tcp    open  http
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+2381/tcp  open  compaq-https
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5666/tcp  open  nrpe
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+8001/tcp  open  vcom-tunnel
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49176/tcp open  unknown
+50006/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for sapprd3.grupocge.cl (10.11.15.50)
+Host is up (0.021s latency).
+Not shown: 984 closed tcp ports (reset)
+PORT      STATE SERVICE
+25/tcp    open  smtp
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+2301/tcp  open  compaqdiag
+2381/tcp  open  compaq-https
+3389/tcp  open  ms-wbt-server
+8001/tcp  open  vcom-tunnel
+8010/tcp  open  xmpp
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for sapmig03.grupocge.cl (10.11.15.61)
+Host is up (0.021s latency).
+Not shown: 984 closed tcp ports (reset)
+PORT      STATE SERVICE
+25/tcp    open  smtp
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+2301/tcp  open  compaqdiag
+2381/tcp  open  compaq-https
+3389/tcp  open  ms-wbt-server
+8001/tcp  open  vcom-tunnel
+8010/tcp  open  xmpp
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49165/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for sapprd5.grupocge.cl (10.11.15.62)
+Host is up (0.022s latency).
+Not shown: 983 closed tcp ports (reset)
+PORT      STATE SERVICE
+25/tcp    open  smtp
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+2301/tcp  open  compaqdiag
+2381/tcp  open  compaq-https
+3389/tcp  open  ms-wbt-server
+8001/tcp  open  vcom-tunnel
+8010/tcp  open  xmpp
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+49165/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for sapprd6.grupocge.cl (10.11.15.63)
+Host is up (0.023s latency).
+Not shown: 983 closed tcp ports (reset)
+PORT      STATE SERVICE
+25/tcp    open  smtp
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+1501/tcp  open  sas-3
+2301/tcp  open  compaqdiag
+2381/tcp  open  compaq-https
+3389/tcp  open  ms-wbt-server
+8001/tcp  open  vcom-tunnel
+8010/tcp  open  xmpp
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for sapprd7.grupocge.cl (10.11.15.64)
+Host is up (0.021s latency).
+Not shown: 983 closed tcp ports (reset)
+PORT      STATE SERVICE
+25/tcp    open  smtp
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+1501/tcp  open  sas-3
+2301/tcp  open  compaqdiag
+2381/tcp  open  compaq-https
+3389/tcp  open  ms-wbt-server
+8001/tcp  open  vcom-tunnel
+8010/tcp  open  xmpp
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for sapprd8.grupocge.cl (10.11.15.65)
+Host is up (0.022s latency).
+Not shown: 984 closed tcp ports (reset)
+PORT      STATE SERVICE
+25/tcp    open  smtp
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+2301/tcp  open  compaqdiag
+2381/tcp  open  compaq-https
+3389/tcp  open  ms-wbt-server
+8001/tcp  open  vcom-tunnel
+8010/tcp  open  xmpp
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for sapprd11.grupocge.cl (10.11.15.66)
+Host is up (0.022s latency).
+Not shown: 983 closed tcp ports (reset)
+PORT      STATE SERVICE
+25/tcp    open  smtp
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+2301/tcp  open  compaqdiag
+2381/tcp  open  compaq-https
+3389/tcp  open  ms-wbt-server
+8001/tcp  open  vcom-tunnel
+8010/tcp  open  xmpp
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+49176/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for sapprd12.grupocge.cl (10.11.15.67)
+Host is up (0.025s latency).
+Not shown: 984 closed tcp ports (reset)
+PORT      STATE SERVICE
+25/tcp    open  smtp
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+2301/tcp  open  compaqdiag
+2381/tcp  open  compaq-https
+3389/tcp  open  ms-wbt-server
+8001/tcp  open  vcom-tunnel
+8010/tcp  open  xmpp
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for sappop.grupocge.cl (10.11.15.68)
+Host is up (0.023s latency).
+Not shown: 967 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+888/tcp   open  accessbuilder
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+3221/tcp  open  xnm-clear-text
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5666/tcp  open  nrpe
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+
+Nmap scan report for sapcrp1.grupocge.cl (10.11.15.84)
+Host is up (0.023s latency).
+Not shown: 984 closed tcp ports (reset)
+PORT      STATE SERVICE
+25/tcp    open  smtp
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+1501/tcp  open  sas-3
+2301/tcp  open  compaqdiag
+2381/tcp  open  compaq-https
+3389/tcp  open  ms-wbt-server
+8001/tcp  open  vcom-tunnel
+8010/tcp  open  xmpp
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for sapcrp4.grupocge.cl (10.11.15.86)
+Host is up (0.023s latency).
+Not shown: 984 closed tcp ports (reset)
+PORT      STATE SERVICE
+25/tcp    open  smtp
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+2301/tcp  open  compaqdiag
+2381/tcp  open  compaq-https
+3389/tcp  open  ms-wbt-server
+8001/tcp  open  vcom-tunnel
+8010/tcp  open  xmpp
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for sapcrp5.grupocge.cl (10.11.15.87)
+Host is up (0.022s latency).
+Not shown: 984 closed tcp ports (reset)
+PORT      STATE SERVICE
+25/tcp    open  smtp
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+2301/tcp  open  compaqdiag
+2381/tcp  open  compaq-https
+3389/tcp  open  ms-wbt-server
+8001/tcp  open  vcom-tunnel
+8010/tcp  open  xmpp
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for 10.11.15.96
+Host is up (0.022s latency).
+Not shown: 993 closed tcp ports (reset)
+PORT      STATE SERVICE
+22/tcp    open  ssh
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3301/tcp  open  tarantool
+3389/tcp  open  ms-wbt-server
+50000/tcp open  ibm-db2
+
+Nmap scan report for sapprdn05.cge.cl (10.11.15.105)
+Host is up (0.023s latency).
+Not shown: 990 closed tcp ports (reset)
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+8080/tcp  open  http-proxy
+8084/tcp  open  websnp
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+
+Nmap scan report for aut-w-spp-02.grupocge.cl (10.11.15.106)
+Host is up (0.021s latency).
+Not shown: 990 closed tcp ports (reset)
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+1433/tcp  open  ms-sql-s
+2383/tcp  open  ms-olap4
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+
+Nmap scan report for sapprdn10.cge.cl (10.11.15.110)
+Host is up (0.021s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1090/tcp open  ff-fms
+1095/tcp open  nicelink
+3389/tcp open  ms-wbt-server
+7200/tcp open  fodms
+
+Nmap scan report for wd-w-spp-temp.grupocge.cl (10.11.15.121)
+Host is up (0.021s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT    STATE    SERVICE
+80/tcp  filtered http
+443/tcp filtered https
+
+Nmap scan report for 10.11.15.125
+Host is up (0.023s latency).
+Not shown: 963 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+2381/tcp  open  compaq-https
+3211/tcp  open  avsecuremgmt
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5666/tcp  open  nrpe
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+8001/tcp  open  vcom-tunnel
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49167/tcp open  unknown
+50006/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for sappxpt.grupocge.cl (10.11.15.140)
+Host is up (0.021s latency).
+Not shown: 968 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+1025/tcp  open  NFS-or-IIS
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5666/tcp  open  nrpe
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+49152/tcp open  unknown
+49153/tcp open  unknown
+
+Nmap scan report for sappxpk.grupocge.cl (10.11.15.141)
+Host is up (0.023s latency).
+Not shown: 967 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+1025/tcp  open  NFS-or-IIS
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5666/tcp  open  nrpe
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+49154/tcp open  unknown
+49155/tcp open  unknown
+49176/tcp open  unknown
+
+Nmap scan report for sappxpdb.grupocge.cl (10.11.15.143)
+Host is up (0.022s latency).
+Not shown: 968 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+1025/tcp  open  NFS-or-IIS
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5666/tcp  open  nrpe
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+49152/tcp open  unknown
+49153/tcp open  unknown
+
+Nmap scan report for sappxp.grupocge.cl (10.11.15.144)
+Host is up (0.023s latency).
+Not shown: 968 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+1025/tcp  open  NFS-or-IIS
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5666/tcp  open  nrpe
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+49152/tcp open  unknown
+49153/tcp open  unknown
+
+Nmap scan report for sappxpers.grupocge.cl (10.11.15.145)
+Host is up (0.023s latency).
+Not shown: 967 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+1025/tcp  open  NFS-or-IIS
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5666/tcp  open  nrpe
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+49154/tcp open  unknown
+49155/tcp open  unknown
+49176/tcp open  unknown
+
+Nmap scan report for sappxpn01.grupocge.cl (10.11.15.146)
+Host is up (0.020s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+5357/tcp  open  wsdapi
+65000/tcp open  unknown
+
+Nmap scan report for sappxpn02.grupocge.cl (10.11.15.147)
+Host is up (0.021s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+1025/tcp  open  NFS-or-IIS
+3389/tcp  open  ms-wbt-server
+65000/tcp open  unknown
+
+Nmap scan report for sapprdk.grupocge.cl (10.11.15.150)
+Host is up (0.022s latency).
+Not shown: 969 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5666/tcp  open  nrpe
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+49152/tcp open  unknown
+49155/tcp open  unknown
+49175/tcp open  unknown
+50006/tcp open  unknown
+
+Nmap scan report for sapcrpt.grupocge.cl (10.11.15.151)
+Host is up (0.021s latency).
+Not shown: 963 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+80/tcp    open  http
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5666/tcp  open  nrpe
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+8001/tcp  open  vcom-tunnel
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for 10.11.15.152
+Host is up (0.020s latency).
+Not shown: 965 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+3211/tcp  open  avsecuremgmt
+3221/tcp  open  xnm-clear-text
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5666/tcp  open  nrpe
+5922/tcp  open  unknown
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49167/tcp open  unknown
+
+Nmap scan report for sapgrp.grupocge.cl (10.11.15.153)
+Host is up (0.021s latency).
+Not shown: 964 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+3300/tcp  open  ceph
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5666/tcp  open  nrpe
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+8000/tcp  open  http-alt
+8100/tcp  open  xprint-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49167/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for sappopt.cge.cl (10.11.15.154)
+Host is up (0.019s latency).
+Not shown: 969 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5666/tcp  open  nrpe
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+
+Nmap scan report for sapcrpn05.grupocge.cl (10.11.15.155)
+Host is up (0.022s latency).
+Not shown: 969 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5666/tcp  open  nrpe
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+
+Nmap scan report for sapcrp03.grupocge.cl (10.11.15.157)
+Host is up (0.020s latency).
+Not shown: 983 closed tcp ports (reset)
+PORT      STATE SERVICE
+25/tcp    open  smtp
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+2301/tcp  open  compaqdiag
+2381/tcp  open  compaq-https
+3389/tcp  open  ms-wbt-server
+8001/tcp  open  vcom-tunnel
+8010/tcp  open  xmpp
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+49176/tcp open  unknown
+65000/tcp open  unknown
+
+Nmap scan report for sapbhpan01.grupocge.cl (10.11.15.160)
+Host is up (0.020s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3300/tcp  open  ceph
+3389/tcp  open  ms-wbt-server
+8000/tcp  open  http-alt
+8001/tcp  open  vcom-tunnel
+65000/tcp open  unknown
+
+Nmap scan report for sapbhpj01.grupocge.cl (10.11.15.164)
+Host is up (0.025s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT      STATE SERVICE
+22/tcp    open  ssh
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3301/tcp  open  tarantool
+3389/tcp  open  ms-wbt-server
+50000/tcp open  ibm-db2
+65000/tcp open  unknown
+
+Nmap scan report for sappopk.cge.cl (10.11.15.166)
+Host is up (0.022s latency).
+Not shown: 967 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+888/tcp   open  accessbuilder
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+3221/tcp  open  xnm-clear-text
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5666/tcp  open  nrpe
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+
+Nmap scan report for sapsmpt.grupocge.cl (10.11.15.167)
+Host is up (0.021s latency).
+Not shown: 966 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+3211/tcp  open  avsecuremgmt
+3221/tcp  open  xnm-clear-text
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5922/tcp  open  unknown
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49167/tcp open  unknown
+
+Nmap scan report for sapcrpk.grupocge.cl (10.11.15.178)
+Host is up (0.023s latency).
+Not shown: 971 closed tcp ports (reset)
+PORT      STATE SERVICE
+7/tcp     open  echo
+9/tcp     open  discard
+13/tcp    open  daytime
+19/tcp    open  chargen
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+37/tcp    open  time
+111/tcp   open  rpcbind
+113/tcp   open  ident
+135/tcp   open  msrpc
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+515/tcp   open  printer
+543/tcp   open  klogin
+544/tcp   open  kshell
+587/tcp   open  submission
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+2301/tcp  open  compaqdiag
+4045/tcp  open  lockd
+5555/tcp  open  freeciv
+5666/tcp  open  nrpe
+5989/tcp  open  wbem-https
+6112/tcp  open  dtspc
+49152/tcp open  unknown
+49155/tcp open  unknown
+
+Nmap scan report for 10.11.15.190
+Host is up (0.022s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+23/tcp open  telnet
+
+Nmap scan report for saphbp.grupocge.cl (10.11.15.200)
+Host is up (0.022s latency).
+Not shown: 993 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2049/tcp open  nfs
+2301/tcp open  compaqdiag
+2381/tcp open  compaq-https
+5555/tcp open  freeciv
+8000/tcp open  http-alt
+
+Nmap scan report for saphbpt1.grupocge.cl (10.11.15.201)
+Host is up (0.020s latency).
+Not shown: 993 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2049/tcp open  nfs
+2301/tcp open  compaqdiag
+2381/tcp open  compaq-https
+5555/tcp open  freeciv
+8000/tcp open  http-alt
+
+Nmap scan report for saphbpt2.grupocge.cl (10.11.15.202)
+Host is up (0.020s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2301/tcp open  compaqdiag
+2381/tcp open  compaq-https
+5555/tcp open  freeciv
+8000/tcp open  http-alt
+
+Nmap scan report for saphbpt3.grupocge.cl (10.11.15.203)
+Host is up (0.022s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2301/tcp open  compaqdiag
+2381/tcp open  compaq-https
+5555/tcp open  freeciv
+8000/tcp open  http-alt
+
+Nmap scan report for saphbpt4.grupocge.cl (10.11.15.204)
+Host is up (0.022s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2301/tcp open  compaqdiag
+2381/tcp open  compaq-https
+5555/tcp open  freeciv
+8000/tcp open  http-alt
+
+Nmap scan report for saphbpt5.grupocge.cl (10.11.15.205)
+Host is up (0.021s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2301/tcp open  compaqdiag
+2381/tcp open  compaq-https
+5555/tcp open  freeciv
+8000/tcp open  http-alt
+
+Nmap scan report for saphbpt6.grupocge.cl (10.11.15.206)
+Host is up (0.022s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2301/tcp open  compaqdiag
+2381/tcp open  compaq-https
+5555/tcp open  freeciv
+8000/tcp open  http-alt
+
+Nmap scan report for saphbpt7.grupocge.cl (10.11.15.207)
+Host is up (0.022s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2301/tcp open  compaqdiag
+2381/tcp open  compaq-https
+5555/tcp open  freeciv
+8000/tcp open  http-alt
+
+Nmap scan report for saphbpt8.grupocge.cl (10.11.15.208)
+Host is up (0.022s latency).
+Not shown: 993 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2049/tcp open  nfs
+2301/tcp open  compaqdiag
+2381/tcp open  compaq-https
+5555/tcp open  freeciv
+8000/tcp open  http-alt
+
+Nmap scan report for saphbpk1.grupocge.cl (10.11.15.209)
+Host is up (0.023s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2301/tcp open  compaqdiag
+2381/tcp open  compaq-https
+5555/tcp open  freeciv
+8000/tcp open  http-alt
+
+Nmap scan report for 10.11.15.210
+Host is up (0.022s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2301/tcp open  compaqdiag
+2381/tcp open  compaq-https
+5555/tcp open  freeciv
+8000/tcp open  http-alt
+
+Nmap scan report for 10.11.15.211
+Host is up (0.022s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2301/tcp open  compaqdiag
+2381/tcp open  compaq-https
+5555/tcp open  freeciv
+8000/tcp open  http-alt
+
+Nmap scan report for 10.11.15.212
+Host is up (0.023s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2301/tcp open  compaqdiag
+2381/tcp open  compaq-https
+5555/tcp open  freeciv
+8000/tcp open  http-alt
+
+Nmap scan report for 10.11.15.213
+Host is up (0.023s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2301/tcp open  compaqdiag
+2381/tcp open  compaq-https
+5555/tcp open  freeciv
+8000/tcp open  http-alt
+
+Nmap scan report for 10.11.15.214
+Host is up (0.022s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2301/tcp open  compaqdiag
+2381/tcp open  compaq-https
+5555/tcp open  freeciv
+8000/tcp open  http-alt
+
+Nmap scan report for 10.11.15.215
+Host is up (0.022s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2301/tcp open  compaqdiag
+2381/tcp open  compaq-https
+5555/tcp open  freeciv
+8000/tcp open  http-alt
+
+Nmap scan report for 10.11.15.216
+Host is up (0.023s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2301/tcp open  compaqdiag
+2381/tcp open  compaq-https
+5555/tcp open  freeciv
+8000/tcp open  http-alt
+
+Nmap scan report for sapiqpt.grupocge.cl (10.11.15.217)
+Host is up (0.033s latency).
+Not shown: 943 filtered tcp ports (no-response), 24 filtered tcp ports (admin-prohibited), 30 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+2049/tcp open  nfs
+5666/tcp open  nrpe
+
+Warning: 10.11.15.248 giving up on port because retransmission cap hit (2).
+Warning: 10.11.15.249 giving up on port because retransmission cap hit (2).
+Warning: 10.11.15.254 giving up on port because retransmission cap hit (2).
+Nmap scan report for sapiqpt-ha.grupocge.cl (10.11.15.218)
+Host is up (0.023s latency).
+Not shown: 915 filtered tcp ports (no-response), 53 filtered tcp ports (admin-prohibited), 30 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+5666/tcp open  nrpe
+
+Nmap scan report for sapbwpt.grupocge.cl (10.11.15.219)
+Host is up (0.019s latency).
+Not shown: 930 filtered tcp ports (no-response), 34 filtered tcp ports (admin-prohibited), 31 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2049/tcp open  nfs
+5666/tcp open  nrpe
+8000/tcp open  http-alt
+
+Nmap scan report for sapbwpt-ha.grupocge.cl (10.11.15.220)
+Host is up (0.019s latency).
+Not shown: 896 filtered tcp ports (no-response), 72 filtered tcp ports (admin-prohibited), 29 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+5666/tcp open  nrpe
+8000/tcp open  http-alt
+
+Nmap scan report for sapiq.grupocge.cl (10.11.15.221)
+Host is up (0.023s latency).
+Not shown: 902 filtered tcp ports (no-response), 65 filtered tcp ports (admin-prohibited), 31 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+2049/tcp open  nfs
+
+Nmap scan report for sapiqpk.grupocge.cl (10.11.15.222)
+Host is up (0.025s latency).
+Not shown: 889 filtered tcp ports (no-response), 80 filtered tcp ports (admin-prohibited), 29 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+5666/tcp open  nrpe
+
+Nmap scan report for sapbwpk.grupocge.cl (10.11.15.223)
+Host is up (0.021s latency).
+Not shown: 888 filtered tcp ports (no-response), 81 filtered tcp ports (admin-prohibited), 28 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+5666/tcp open  nrpe
+8000/tcp open  http-alt
+
+Nmap scan report for sapbw.grupocge.cl (10.11.15.226)
+Host is up (0.026s latency).
+Not shown: 935 filtered tcp ports (no-response), 29 filtered tcp ports (admin-prohibited), 32 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2049/tcp open  nfs
+8000/tcp open  http-alt
+
+Nmap scan report for 10.11.15.228
+Host is up (0.018s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+6000/tcp open  X11
+
+Nmap scan report for 10.11.15.229
+Host is up (0.018s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 10.11.15.230
+Host is up (0.017s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 10.11.15.248
+Host is up (1.2s latency).
+Not shown: 826 closed tcp ports (reset), 170 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+161/tcp open  snmp
+179/tcp open  bgp
+
+Nmap scan report for 10.11.15.249
+Host is up (0.37s latency).
+Not shown: 988 closed tcp ports (reset)
+PORT      STATE    SERVICE
+21/tcp    filtered ftp
+22/tcp    open     ssh
+23/tcp    open     telnet
+111/tcp   filtered rpcbind
+161/tcp   open     snmp
+179/tcp   open     bgp
+512/tcp   filtered exec
+513/tcp   filtered login
+514/tcp   filtered shell
+2049/tcp  filtered nfs
+27000/tcp filtered flexlm0
+32768/tcp filtered filenet-tms
+
+Nmap scan report for 10.11.15.250
+Host is up (0.023s latency).
+All 1000 scanned ports on 10.11.15.250 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 10.11.15.252
+Host is up (0.031s latency).
+Not shown: 988 closed tcp ports (reset)
+PORT      STATE    SERVICE
+21/tcp    filtered ftp
+22/tcp    open     ssh
+23/tcp    open     telnet
+111/tcp   filtered rpcbind
+161/tcp   open     snmp
+179/tcp   open     bgp
+512/tcp   filtered exec
+513/tcp   filtered login
+514/tcp   filtered shell
+2049/tcp  filtered nfs
+27000/tcp filtered flexlm0
+32768/tcp filtered filenet-tms
+
+Nmap scan report for 10.11.15.253
+Host is up (0.019s latency).
+Not shown: 988 closed tcp ports (reset)
+PORT      STATE    SERVICE
+21/tcp    filtered ftp
+22/tcp    open     ssh
+23/tcp    open     telnet
+111/tcp   filtered rpcbind
+161/tcp   open     snmp
+179/tcp   open     bgp
+512/tcp   filtered exec
+513/tcp   filtered login
+514/tcp   filtered shell
+2049/tcp  filtered nfs
+27000/tcp filtered flexlm0
+32768/tcp filtered filenet-tms
+
+Nmap scan report for 10.11.15.254
+Host is up (1.2s latency).
+Not shown: 845 closed tcp ports (reset), 152 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+161/tcp open  snmp
+
+# Nmap done at Mon Jan 23 10:45:43 2023 -- 256 IP addresses (80 hosts up) scanned in 105.63 seconds
